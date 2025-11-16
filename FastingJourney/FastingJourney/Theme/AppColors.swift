@@ -1,11 +1,11 @@
 import SwiftUI
 
-/// App color palette - Modern Clean Design
+/// App color palette - Modern Clean Design with contrast support
 struct AppColors {
     // MARK: - Primary Colors
     static let primary = Color(red: 0.55, green: 0.76, blue: 0.29) // Fresh lime green
     static let primaryLight = Color(red: 0.75, green: 0.88, blue: 0.55) // Light green
-    static let primaryDark = Color(red: 0.40, green: 0.60, blue: 0.20) // Dark green
+    static let primaryDark = Color(red: 0.35, green: 0.55, blue: 0.15) // Darker green for better contrast
     
     // MARK: - Secondary Colors
     static let accent = Color(red: 0.55, green: 0.76, blue: 0.29) // Same as primary
@@ -17,17 +17,19 @@ struct AppColors {
     static let surfaceBackground = Color(red: 0.96, green: 0.96, blue: 0.96)
     
     // MARK: - Text
-    static let textPrimary = Color.black
-    static let textSecondary = Color(red: 0.55, green: 0.55, blue: 0.55)
-    static let textTertiary = Color(red: 0.75, green: 0.75, blue: 0.75)
+    static let textPrimary = Color(red: 0.1, green: 0.1, blue: 0.1) // Almost black for better readability
+    static let textSecondary = Color(red: 0.45, green: 0.45, blue: 0.45) // Darker gray
+    static let textTertiary = Color(red: 0.65, green: 0.65, blue: 0.65) // Medium gray
+    static let textOnPrimary = Color.white // White text on colored backgrounds
+    static let textOnLight = Color(red: 0.2, green: 0.2, blue: 0.2) // Dark text on light backgrounds
     
     // MARK: - Semantic
-    static let success = Color(red: 0.55, green: 0.76, blue: 0.29)
-    static let warning = Color(red: 1.0, green: 0.73, blue: 0.25)
-    static let error = Color(red: 1.0, green: 0.34, blue: 0.34)
-    static let blue = Color(red: 0.30, green: 0.69, blue: 0.95)
-    static let purple = Color(red: 0.67, green: 0.55, blue: 0.95)
-    static let orange = Color(red: 1.0, green: 0.60, blue: 0.20)
+    static let success = Color(red: 0.35, green: 0.65, blue: 0.20) // Darker green for better contrast
+    static let warning = Color(red: 0.95, green: 0.65, blue: 0.15) // Darker orange
+    static let error = Color(red: 0.90, green: 0.25, blue: 0.25) // Darker red
+    static let blue = Color(red: 0.20, green: 0.55, blue: 0.85) // Darker blue
+    static let purple = Color(red: 0.55, green: 0.40, blue: 0.85) // Darker purple
+    static let orange = Color(red: 0.95, green: 0.50, blue: 0.10) // Darker orange
     
     // MARK: - Gradients
     static let gradientPrimary = LinearGradient(

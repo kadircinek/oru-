@@ -30,10 +30,6 @@
 	<string>Sağlık verilerinizi oruç takibinizle entegre etmek için kullanılır.</string>
 	<key>NSHealthUpdateUsageDescription</key>
 	<string>Oruç aktivitelerinizi sağlık uygulamanıza kaydetmek için kullanılır.</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>You have savings to provide reminders when you get closer to home or on the edge.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need your location to remind you when you are close to home as the end of the fast approaches.</string>
 	<key>NSUserNotificationsUsageDescription</key>
 	<string>Oruç saatlerinizi, su içme hatırlatmalarını ve aşama bildirimlerini göndermek için bildirim iznine ihtiyacımız var.</string>
 	<key>UIApplicationSceneManifest</key>
