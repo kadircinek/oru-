@@ -427,14 +427,6 @@ struct HomeView: View {
                         .padding(.horizontal, 20)
                     }
                     
-                    // MARK: - Calorie Burn Tracker
-                    if sessionViewModel.isActive(), 
-                       let user = authViewModel.currentUser,
-                       user.weight != nil {
-                        caloriesBurnedCard(user: user)
-                            .padding(.horizontal, 20)
-                    }
-                    
                     // MARK: - Share Progress Prompt (Motivational)
                     if sessionViewModel.isActive() && sessionViewModel.elapsedHours >= 4 {
                         Button {

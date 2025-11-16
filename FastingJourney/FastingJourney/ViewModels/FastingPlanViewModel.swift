@@ -19,6 +19,17 @@ class FastingPlanViewModel: ObservableObject {
     init() {
         loadSelectedPlan()
         filterPlans()
+        
+        // Listen for auto-assigned plans from registration
+        NotificationCenter.default.addObserver(
+            forName: NSNotification.Name("PlanAssigned"),
+            object: nil,
+            queue: .main
+        ) { [weak self] notification in
+            if let plan = notification.object as? FastingPlan {
+                self?.selectedPlan = plan
+            }
+        }
     }
     
     // MARK: - Plan Selection
