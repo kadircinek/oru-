@@ -13,7 +13,7 @@ struct PlansView: View {
             VStack(spacing: 0) {
                 // Search Bar
                 SearchBar(text: $viewModel.searchText)
-                    .onChange(of: viewModel.searchText) { _, newValue in
+                    .onChange(of: viewModel.searchText) { newValue in
                         viewModel.updateSearchText(newValue)
                     }
                     .padding(AppTypography.large)
@@ -27,7 +27,7 @@ struct PlansView: View {
                 .pickerStyle(.segmented)
                 .padding(.horizontal, AppTypography.large)
                 .padding(.bottom, AppTypography.medium)
-                .onChange(of: viewModel.selectedFilter) { _, newValue in
+                .onChange(of: viewModel.selectedFilter) { newValue in
                     viewModel.setFilter(newValue)
                 }
                 

@@ -24,25 +24,24 @@ struct ProgressRingView: View {
                 .animation(.easeInOut(duration: 0.5), value: progress)
             
             // Center content
-            VStack(spacing: 8) {
+            VStack(spacing: 12) {
+                Text(isActive ? "🔥 ACTIVE 🔥" : "💤 READY")
+                    .font(.system(size: 16, weight: .bold))
+                    .foregroundColor(isActive ? AppColors.accent : AppColors.textSecondary)
+                    .tracking(1.5)
+                
+                Text(remainingTime)
+                    .font(.system(size: 48, weight: .bold, design: .rounded))
+                    .foregroundColor(AppColors.textPrimary)
+                
                 if isActive {
-                    Text(remainingTime)
-                        .font(.system(size: 32, weight: .bold, design: .default))
-                        .foregroundColor(AppColors.textPrimary)
-                    
-                    Text("Remaining")
-                        .font(.captionLarge)
+                    Text("⏱️ Time Remaining")
+                        .font(.system(size: 14))
                         .foregroundColor(AppColors.textSecondary)
                 } else {
-                    VStack(spacing: 4) {
-                        Image(systemName: "play.circle.fill")
-                            .font(.system(size: 32))
-                            .foregroundColor(AppColors.primary)
-                        
-                        Text("Tap to Start")
-                            .font(.bodySmall)
-                            .foregroundColor(AppColors.textSecondary)
-                    }
+                    Text("🚀 Ready to Start")
+                        .font(.system(size: 14))
+                        .foregroundColor(AppColors.textSecondary)
                 }
             }
         }

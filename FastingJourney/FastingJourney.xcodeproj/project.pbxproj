@@ -12,7 +12,7 @@
 		A1000001005 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001006 /* MainTabView.swift */; };
 		A1000001007 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001008 /* HomeView.swift */; };
 		A1000001009 /* PlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001010 /* PlansView.swift */; };
-		A1000001011 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001012 /* HistoryView.swift */; };
+		A1000001011 /* GrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001012 /* GrowView.swift */; };
 		A1000001013 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001014 /* SettingsView.swift */; };
 		A1000001015 /* FastingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001016 /* FastingPlan.swift */; };
 		A1000001017 /* FastingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001018 /* FastingSession.swift */; };
@@ -39,6 +39,58 @@
 		A1000001059 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001060 /* SettingsViewModel.swift */; };
 		A1000001061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1000001062 /* LaunchScreen.storyboard */; };
 		A1000001063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000001064 /* Assets.xcassets */; };
+		A1000001102 /* HydrationEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001103 /* HydrationEntry.swift */; };
+		A1000001104 /* HealthTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001105 /* HealthTip.swift */; };
+		A1000001106 /* MotivationalQuotesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001107 /* MotivationalQuotesProvider.swift */; };
+		A1000001108 /* NotificationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001109 /* NotificationSettingsView.swift */; };
+		A1000001109A /* PersonalInfoEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001109B /* PersonalInfoEditView.swift */; };
+		A1000001110 /* FastingTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001111 /* FastingTimeline.swift */; };
+		A1000001112 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001113 /* AuthViewModel.swift */; };
+		A1000001114 /* HydrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001115 /* HydrationViewModel.swift */; };
+		A1000001116 /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001117 /* AnalyticsViewModel.swift */; };
+		A1000001118 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001119 /* CalendarViewModel.swift */; };
+		A1000001120 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001121 /* User.swift */; };
+		A1000001122 /* AnalyticsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001123 /* AnalyticsData.swift */; };
+		A1000001124 /* CalendarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001125 /* CalendarData.swift */; };
+		A1000001126 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001127 /* AnalyticsView.swift */; };
+		A1000001128 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001129 /* CalendarView.swift */; };
+		A1000001130 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001131 /* LoginView.swift */; };
+		A1000001132 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001133 /* RegisterView.swift */; };
+		A1000001134 /* HealthTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001135 /* HealthTipsView.swift */; };
+		A1000001136 /* FastingTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001137 /* FastingTimelineView.swift */; };
+		A1000001138 /* HydrationRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001139 /* HydrationRingView.swift */; };
+		A1000001140 /* AnalyticsComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001141 /* AnalyticsComponents.swift */; };
+		A1000001142 /* NutritionTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001143 /* NutritionTip.swift */; };
+		A1000001144 /* NutritionTipsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001145 /* NutritionTipsProvider.swift */; };
+		A1000001146 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001147 /* FlowLayout.swift */; };
+		A1000001148 /* NutritionTipDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001149 /* NutritionTipDetailView.swift */; };
+		A1000001150 /* HealthTipDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001151 /* HealthTipDetailView.swift */; };
+		A1000001152 /* WeightEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001153 /* WeightEntry.swift */; };
+		A1000001154 /* WeightTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001155 /* WeightTrackingManager.swift */; };
+		A1000001156 /* WeightTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001157 /* WeightTrackingViewModel.swift */; };
+		A1000001158 /* WeightTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001159 /* WeightTrackingView.swift */; };
+		A1000001160 /* AddWeightEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001161 /* AddWeightEntryView.swift */; };
+		A1000001164 /* FastingBuddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001165 /* FastingBuddy.swift */; };
+		A1000001166 /* BuddyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001167 /* BuddyManager.swift */; };
+		A1000001168 /* SocialShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001169 /* SocialShareManager.swift */; };
+		A1000001170 /* BuddyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001171 /* BuddyViewModel.swift */; };
+		A1000001172 /* BuddyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001173 /* BuddyListView.swift */; };
+		A1000001174 /* BuddyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001175 /* BuddyDetailView.swift */; };
+		A1000001176 /* InviteBuddyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001177 /* InviteBuddyView.swift */; };
+		A1000001178 /* StartSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001179 /* StartSessionView.swift */; };
+		A1000001180 /* BuddySessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001181 /* BuddySessionView.swift */; };
+		A1000001182 /* UserProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001183 /* UserProfileEditView.swift */; };
+		A1000001184 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001185 /* LocationManager.swift */; };
+		A1000001186 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001187 /* WeatherManager.swift */; };
+		A1000001188 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001189 /* CalendarManager.swift */; };
+		A1000001190 /* SmartFeaturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001191 /* SmartFeaturesView.swift */; };
+		A1000001192 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001193 /* CoreDataManager.swift */; };
+		A1000001194 /* FastingJourney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1000001195 /* FastingJourney.xcdatamodeld */; };
+		A1000001196 /* CDFastingSession+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001197 /* CDFastingSession+CoreDataClass.swift */; };
+		A1000001198 /* CDUserProfile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001199 /* CDUserProfile+CoreDataClass.swift */; };
+		A1000001200 /* CDWeightEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001201 /* CDWeightEntry+CoreDataClass.swift */; };
+		A1000001202 /* CDHydrationEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001203 /* CDHydrationEntry+CoreDataClass.swift */; };
+		A1000001205 /* CalorieCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001206 /* CalorieCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +100,7 @@
 		A1000001006 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		A1000001008 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A1000001010 /* PlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansView.swift; sourceTree = "<group>"; };
-		A1000001012 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A1000001012 /* GrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowView.swift; sourceTree = "<group>"; };
 		A1000001014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A1000001016 /* FastingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingPlan.swift; sourceTree = "<group>"; };
 		A1000001018 /* FastingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingSession.swift; sourceTree = "<group>"; };
@@ -76,6 +128,58 @@
 		A1000001062 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1000001064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1000001065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1000001103 /* HydrationEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationEntry.swift; sourceTree = "<group>"; };
+		A1000001105 /* HealthTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTip.swift; sourceTree = "<group>"; };
+		A1000001107 /* MotivationalQuotesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalQuotesProvider.swift; sourceTree = "<group>"; };
+		A1000001109 /* NotificationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsView.swift; sourceTree = "<group>"; };
+		A1000001109B /* PersonalInfoEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoEditView.swift; sourceTree = "<group>"; };
+		A1000001111 /* FastingTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimeline.swift; sourceTree = "<group>"; };
+		A1000001113 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		A1000001115 /* HydrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationViewModel.swift; sourceTree = "<group>"; };
+		A1000001117 /* AnalyticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewModel.swift; sourceTree = "<group>"; };
+		A1000001119 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		A1000001121 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A1000001123 /* AnalyticsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsData.swift; sourceTree = "<group>"; };
+		A1000001125 /* CalendarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarData.swift; sourceTree = "<group>"; };
+		A1000001127 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		A1000001129 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A1000001131 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A1000001133 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A1000001135 /* HealthTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipsView.swift; sourceTree = "<group>"; };
+		A1000001137 /* FastingTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimelineView.swift; sourceTree = "<group>"; };
+		A1000001139 /* HydrationRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationRingView.swift; sourceTree = "<group>"; };
+		A1000001141 /* AnalyticsComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsComponents.swift; sourceTree = "<group>"; };
+		A1000001143 /* NutritionTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTip.swift; sourceTree = "<group>"; };
+		A1000001145 /* NutritionTipsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTipsProvider.swift; sourceTree = "<group>"; };
+		A1000001147 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		A1000001149 /* NutritionTipDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionTipDetailView.swift; sourceTree = "<group>"; };
+		A1000001151 /* HealthTipDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipDetailView.swift; sourceTree = "<group>"; };
+		A1000001153 /* WeightEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntry.swift; sourceTree = "<group>"; };
+		A1000001155 /* WeightTrackingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackingManager.swift; sourceTree = "<group>"; };
+		A1000001157 /* WeightTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackingViewModel.swift; sourceTree = "<group>"; };
+		A1000001159 /* WeightTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTrackingView.swift; sourceTree = "<group>"; };
+		A1000001161 /* AddWeightEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightEntryView.swift; sourceTree = "<group>"; };
+		A1000001165 /* FastingBuddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingBuddy.swift; sourceTree = "<group>"; };
+		A1000001167 /* BuddyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyManager.swift; sourceTree = "<group>"; };
+		A1000001169 /* SocialShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialShareManager.swift; sourceTree = "<group>"; };
+		A1000001171 /* BuddyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyViewModel.swift; sourceTree = "<group>"; };
+		A1000001173 /* BuddyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyListView.swift; sourceTree = "<group>"; };
+		A1000001175 /* BuddyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyDetailView.swift; sourceTree = "<group>"; };
+		A1000001177 /* InviteBuddyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteBuddyView.swift; sourceTree = "<group>"; };
+		A1000001179 /* StartSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSessionView.swift; sourceTree = "<group>"; };
+		A1000001181 /* BuddySessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddySessionView.swift; sourceTree = "<group>"; };
+		A1000001183 /* UserProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileEditView.swift; sourceTree = "<group>"; };
+		A1000001185 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A1000001187 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		A1000001189 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		A1000001191 /* SmartFeaturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFeaturesView.swift; sourceTree = "<group>"; };
+		A1000001193 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A1000001197 /* CDFastingSession+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDFastingSession+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A1000001199 /* CDUserProfile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDUserProfile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A1000001201 /* CDWeightEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDWeightEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A1000001203 /* CDHydrationEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDHydrationEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A1000001204 /* FastingJourney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastingJourney.xcdatamodel; sourceTree = "<group>"; };
+		A1000001206 /* CalorieCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +239,30 @@
 				A1000001016 /* FastingPlan.swift */,
 				A1000001018 /* FastingSession.swift */,
 				A1000001020 /* UserProfile.swift */,
+				A1000001103 /* HydrationEntry.swift */,
+				A1000001105 /* HealthTip.swift */,
+				A1000001111 /* FastingTimeline.swift */,
+				A1000001121 /* User.swift */,
+				A1000001123 /* AnalyticsData.swift */,
+				A1000001125 /* CalendarData.swift */,
+				A1000001143 /* NutritionTip.swift */,
+				A1000001153 /* WeightEntry.swift */,
+				A1000001165 /* FastingBuddy.swift */,
+				A1000001195 /* FastingJourney.xcdatamodeld */,
+				A1000000521 /* CoreData */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000000521 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001197 /* CDFastingSession+CoreDataClass.swift */,
+				A1000001199 /* CDUserProfile+CoreDataClass.swift */,
+				A1000001201 /* CDWeightEntry+CoreDataClass.swift */,
+				A1000001203 /* CDHydrationEntry+CoreDataClass.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		A1000000530 /* ViewModels */ = {
@@ -146,6 +272,12 @@
 				A1000001056 /* FastingSessionViewModel.swift */,
 				A1000001058 /* ProgressViewModel.swift */,
 				A1000001060 /* SettingsViewModel.swift */,
+				A1000001113 /* AuthViewModel.swift */,
+				A1000001115 /* HydrationViewModel.swift */,
+				A1000001117 /* AnalyticsViewModel.swift */,
+				A1000001119 /* CalendarViewModel.swift */,
+				A1000001157 /* WeightTrackingViewModel.swift */,
+				A1000001171 /* BuddyViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -159,36 +291,13 @@
 				A1000000544 /* History */,
 				A1000000545 /* Settings */,
 				A1000000546 /* Components */,
+				A1000000547 /* Analytics */,
+				A1000000548 /* Auth */,
+				A1000000549 /* Health */,
+				A1000000551 /* Weight */,
+				A1000000552 /* Buddy */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		A1000000550 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				A1000001022 /* PersistenceManager.swift */,
-				A1000001024 /* NotificationManager.swift */,
-				A1000001026 /* FastingCalculator.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		A1000000560 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				A1000001028 /* AppColors.swift */,
-				A1000001030 /* AppTypography.swift */,
-			);
-			path = Theme;
-			sourceTree = "<group>";
-		};
-		A1000000570 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A1000001064 /* Assets.xcassets */,
-				A1000001062 /* LaunchScreen.storyboard */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		A1000000541 /* Onboarding */ = {
@@ -220,8 +329,9 @@
 		A1000000544 /* History */ = {
 			isa = PBXGroup;
 			children = (
-				A1000001012 /* HistoryView.swift */,
+				A1000001012 /* GrowView.swift */,
 				A1000001050 /* HistoryDetailView.swift */,
+				A1000001129 /* CalendarView.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -231,6 +341,9 @@
 			children = (
 				A1000001014 /* SettingsView.swift */,
 				A1000001052 /* AboutView.swift */,
+				A1000001109 /* NotificationSettingsView.swift */,
+				A1000001109B /* PersonalInfoEditView.swift */,
+				A1000001191 /* SmartFeaturesView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -245,8 +358,99 @@
 				A1000001040 /* PlanCardView.swift */,
 				A1000001042 /* TagPillView.swift */,
 				A1000001044 /* EmptyStateView.swift */,
+				A1000001137 /* FastingTimelineView.swift */,
+				A1000001139 /* HydrationRingView.swift */,
+				A1000001141 /* AnalyticsComponents.swift */,
+				A1000001147 /* FlowLayout.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		A1000000547 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001127 /* AnalyticsView.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		A1000000548 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001131 /* LoginView.swift */,
+				A1000001133 /* RegisterView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A1000000549 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001135 /* HealthTipsView.swift */,
+				A1000001149 /* NutritionTipDetailView.swift */,
+				A1000001151 /* HealthTipDetailView.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		A1000000550 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001022 /* PersistenceManager.swift */,
+				A1000001193 /* CoreDataManager.swift */,
+				A1000001024 /* NotificationManager.swift */,
+				A1000001026 /* FastingCalculator.swift */,
+				A1000001206 /* CalorieCalculator.swift */,
+				A1000001107 /* MotivationalQuotesProvider.swift */,
+				A1000001145 /* NutritionTipsProvider.swift */,
+				A1000001155 /* WeightTrackingManager.swift */,
+				A1000001167 /* BuddyManager.swift */,
+				A1000001169 /* SocialShareManager.swift */,
+				A1000001185 /* LocationManager.swift */,
+				A1000001187 /* WeatherManager.swift */,
+				A1000001189 /* CalendarManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1000000551 /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001159 /* WeightTrackingView.swift */,
+				A1000001161 /* AddWeightEntryView.swift */,
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
+		A1000000552 /* Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001173 /* BuddyListView.swift */,
+				A1000001175 /* BuddyDetailView.swift */,
+				A1000001177 /* InviteBuddyView.swift */,
+				A1000001179 /* StartSessionView.swift */,
+				A1000001181 /* BuddySessionView.swift */,
+				A1000001183 /* UserProfileEditView.swift */,
+			);
+			path = Buddy;
+			sourceTree = "<group>";
+		};
+		A1000000560 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001028 /* AppColors.swift */,
+				A1000001030 /* AppTypography.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A1000000570 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001064 /* Assets.xcassets */,
+				A1000001062 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +480,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
@@ -292,7 +499,6 @@
 				en,
 			);
 			mainGroup = A1000000100;
-			productDirPath = "";
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -323,7 +529,7 @@
 				A1000001005 /* MainTabView.swift in Sources */,
 				A1000001007 /* HomeView.swift in Sources */,
 				A1000001009 /* PlansView.swift in Sources */,
-				A1000001011 /* HistoryView.swift in Sources */,
+				A1000001011 /* GrowView.swift in Sources */,
 				A1000001013 /* SettingsView.swift in Sources */,
 				A1000001015 /* FastingPlan.swift in Sources */,
 				A1000001017 /* FastingSession.swift in Sources */,
@@ -348,6 +554,58 @@
 				A1000001055 /* FastingSessionViewModel.swift in Sources */,
 				A1000001057 /* ProgressViewModel.swift in Sources */,
 				A1000001059 /* SettingsViewModel.swift in Sources */,
+				A1000001102 /* HydrationEntry.swift in Sources */,
+				A1000001104 /* HealthTip.swift in Sources */,
+				A1000001106 /* MotivationalQuotesProvider.swift in Sources */,
+				A1000001108 /* NotificationSettingsView.swift in Sources */,
+				A1000001109A /* PersonalInfoEditView.swift in Sources */,
+				A1000001110 /* FastingTimeline.swift in Sources */,
+				A1000001112 /* AuthViewModel.swift in Sources */,
+				A1000001114 /* HydrationViewModel.swift in Sources */,
+				A1000001116 /* AnalyticsViewModel.swift in Sources */,
+				A1000001118 /* CalendarViewModel.swift in Sources */,
+				A1000001120 /* User.swift in Sources */,
+				A1000001122 /* AnalyticsData.swift in Sources */,
+				A1000001124 /* CalendarData.swift in Sources */,
+				A1000001126 /* AnalyticsView.swift in Sources */,
+				A1000001128 /* CalendarView.swift in Sources */,
+				A1000001130 /* LoginView.swift in Sources */,
+				A1000001132 /* RegisterView.swift in Sources */,
+				A1000001134 /* HealthTipsView.swift in Sources */,
+				A1000001136 /* FastingTimelineView.swift in Sources */,
+				A1000001138 /* HydrationRingView.swift in Sources */,
+				A1000001140 /* AnalyticsComponents.swift in Sources */,
+				A1000001142 /* NutritionTip.swift in Sources */,
+				A1000001144 /* NutritionTipsProvider.swift in Sources */,
+				A1000001146 /* FlowLayout.swift in Sources */,
+				A1000001148 /* NutritionTipDetailView.swift in Sources */,
+				A1000001150 /* HealthTipDetailView.swift in Sources */,
+				A1000001152 /* WeightEntry.swift in Sources */,
+				A1000001154 /* WeightTrackingManager.swift in Sources */,
+				A1000001156 /* WeightTrackingViewModel.swift in Sources */,
+				A1000001158 /* WeightTrackingView.swift in Sources */,
+				A1000001160 /* AddWeightEntryView.swift in Sources */,
+				A1000001164 /* FastingBuddy.swift in Sources */,
+				A1000001166 /* BuddyManager.swift in Sources */,
+				A1000001168 /* SocialShareManager.swift in Sources */,
+				A1000001170 /* BuddyViewModel.swift in Sources */,
+				A1000001172 /* BuddyListView.swift in Sources */,
+				A1000001174 /* BuddyDetailView.swift in Sources */,
+				A1000001176 /* InviteBuddyView.swift in Sources */,
+				A1000001178 /* StartSessionView.swift in Sources */,
+				A1000001180 /* BuddySessionView.swift in Sources */,
+				A1000001182 /* UserProfileEditView.swift in Sources */,
+				A1000001184 /* LocationManager.swift in Sources */,
+				A1000001186 /* WeatherManager.swift in Sources */,
+				A1000001188 /* CalendarManager.swift in Sources */,
+				A1000001190 /* SmartFeaturesView.swift in Sources */,
+				A1000001192 /* CoreDataManager.swift in Sources */,
+				A1000001194 /* FastingJourney.xcdatamodeld in Sources */,
+				A1000001196 /* CDFastingSession+CoreDataClass.swift in Sources */,
+				A1000001198 /* CDUserProfile+CoreDataClass.swift in Sources */,
+				A1000001200 /* CDWeightEntry+CoreDataClass.swift in Sources */,
+				A1000001202 /* CDHydrationEntry+CoreDataClass.swift in Sources */,
+				A1000001205 /* CalorieCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,19 +660,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HVAR47UB2L;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = FastingJourney/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fasting Journey";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastingjourney.app;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kadircinek.fastlyjourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -424,19 +697,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HVAR47UB2L;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = FastingJourney/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fasting Journey";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fastingjourney.app;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kadircinek.fastlyjourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -464,6 +752,18 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCVersionGroup section */
+		A1000001195 /* FastingJourney.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1000001204 /* FastingJourney.xcdatamodel */,
+			);
+			currentVersion = A1000001204 /* FastingJourney.xcdatamodel */;
+			path = FastingJourney.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A1000000200 /* Project object */;
 }

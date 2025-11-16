@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Fasting Journey</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,11 +17,25 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Takviminize göre size en uygun oruç programını önermek için takviminize erişmek istiyoruz.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Sağlık verilerinizi oruç takibinizle entegre etmek için kullanılır.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Oruç aktivitelerinizi sağlık uygulamanıza kaydetmek için kullanılır.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>You have savings to provide reminders when you get closer to home or on the edge.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to remind you when you are close to home as the end of the fast approaches.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Oruç saatlerinizi, su içme hatırlatmalarını ve aşama bildirimlerini göndermek için bildirim iznine ihtiyacımız var.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

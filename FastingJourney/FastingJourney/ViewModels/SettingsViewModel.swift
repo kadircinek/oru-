@@ -52,6 +52,16 @@ class SettingsViewModel: ObservableObject {
         savePreferences()
     }
     
+    func updateStageNotifications(_ enabled: Bool) {
+        preferences.enableStageNotifications = enabled
+        PersistenceManager.shared.savePreferences(preferences)
+    }
+    
+    func updateWaterReminders(_ enabled: Bool) {
+        preferences.enableWaterReminders = enabled
+        PersistenceManager.shared.savePreferences(preferences)
+    }
+    
     private func savePreferences() {
         persistenceManager.savePreferences(preferences)
     }
