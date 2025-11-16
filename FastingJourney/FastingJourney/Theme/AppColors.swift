@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// App color palette - Modern Clean Design with contrast support
+/// App color palette - Modern Clean Design with Dark Mode support
 struct AppColors {
     // MARK: - Primary Colors
     static let primary = Color(red: 0.55, green: 0.76, blue: 0.29) // Fresh lime green
@@ -11,15 +11,15 @@ struct AppColors {
     static let accent = Color(red: 0.55, green: 0.76, blue: 0.29) // Same as primary
     static let accentLight = Color(red: 0.85, green: 0.95, blue: 0.75) // Very light green
     
-    // MARK: - Background
-    static let background = Color(red: 0.98, green: 0.98, blue: 0.98) // Off-white
-    static let cardBackground = Color.white
-    static let surfaceBackground = Color(red: 0.96, green: 0.96, blue: 0.96)
+    // MARK: - Background (Adaptive for Dark Mode)
+    static let background = Color(.systemBackground) // Adaptive: white in light, black in dark
+    static let cardBackground = Color(.secondarySystemBackground) // Adaptive card background
+    static let surfaceBackground = Color(.tertiarySystemBackground) // Adaptive surface
     
-    // MARK: - Text
-    static let textPrimary = Color(red: 0.1, green: 0.1, blue: 0.1) // Almost black for better readability
-    static let textSecondary = Color(red: 0.45, green: 0.45, blue: 0.45) // Darker gray
-    static let textTertiary = Color(red: 0.65, green: 0.65, blue: 0.65) // Medium gray
+    // MARK: - Text (Adaptive for Dark Mode)
+    static let textPrimary = Color(.label) // Adaptive: black in light, white in dark
+    static let textSecondary = Color(.secondaryLabel) // Adaptive secondary text
+    static let textTertiary = Color(.tertiaryLabel) // Adaptive tertiary text
     static let textOnPrimary = Color.white // White text on colored backgrounds
     static let textOnLight = Color(red: 0.2, green: 0.2, blue: 0.2) // Dark text on light backgrounds
     
